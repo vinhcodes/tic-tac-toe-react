@@ -42,7 +42,6 @@ A simple Tic-Tac-Toe game built with React. This project demonstrates fundamenta
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Features
@@ -108,10 +107,12 @@ tic-tac-toe-react/
 ├── package.json
 └── README.md
 ```
-
-- **\`src/components/\`**: Contains main components like \`Board\` and \`Square\`.
-- **\`App.js\`**: Main application component.
-- **\`index.js\`**: Entry point of the React application.
+- **\`src/__test__/\`**: Contains some tests for my components and functions.
+- **\`bot/\`**: Is a folder that has my [bot algorithm](https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/) `Bot.js`
+- **\`src/components/\`**: Contains main components like `Board.js` `Game.js` and `Square.js`.
+- **\`src/helper/\`**: Contains helper.js, which determines the game winner.
+- **\`App.js\`**: Main application component `App.js`.
+- **\`index.js\`**: Entry point of the React application `index.js`.
 
 ## Technologies Used
 
