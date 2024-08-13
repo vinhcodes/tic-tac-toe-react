@@ -15,10 +15,10 @@ A simple Tic-Tac-Toe game built with React. This project demonstrates fundamenta
 ## Features
 
 - Playable Tic-Tac-Toe game.
-- Two-player mode.
+- Smart Bot opponent feature.
 - Simple and clean UI.
 - Displays game status and winner.
-- Responsive design.
+- Light & Dark modes.
 
 ## Installation
 
