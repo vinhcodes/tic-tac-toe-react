@@ -57,29 +57,29 @@ A simple Tic-Tac-Toe game built with React. This project demonstrates fundamenta
 
 1. Clone the repository:
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/your-username/tic-tac-toe-react.git
-   \`\`\`
+   ```
 
 2. Navigate to the project directory:
 
-   \`\`\`bash
+   ```bash
    cd tic-tac-toe-react
-   \`\`\`
+   ```
 
 3. Install dependencies:
 
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 ## Usage
 
 To start the development server and play the game locally:
 
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 Open your browser and navigate to \`http://localhost:3000\`.
 
@@ -91,10 +91,17 @@ tic-tac-toe-react/
 │   ├── index.html
 │   └── ...
 ├── src/
+│   ├── __test__/
+│   │   ├── Board.test.js
+│   │   └── ...
+│   ├── bot/
+│   │   ├── Bot.js
 │   ├── components/
 │   │   ├── Board.js
-│   │   ├── Square.js
-│   │   └── ...
+│   │   ├── Game.js
+│   │   └── Square.js
+│   ├── helper/
+│   │   ├── helper.js
 │   ├── App.js
 │   ├── index.js
 │   └── ...
@@ -102,7 +109,7 @@ tic-tac-toe-react/
 └── README.md
 ```
 
-- **\`src/components/\`**: Contains reusable components like \`Board\` and \`Square\`.
+- **\`src/components/\`**: Contains main components like \`Board\` and \`Square\`.
 - **\`App.js\`**: Main application component.
 - **\`index.js\`**: Entry point of the React application.
 
@@ -116,17 +123,9 @@ tic-tac-toe-react/
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Contact
 
 For any inquiries or feedback, feel free to reach out:
 
-- **Your Name**: [your.email@example.com](mailto:your.email@example.com)
-- **GitHub**: [https://github.com/your-username](https://github.com/your-username)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Your Name**: [vinhnguyen.dev!outlook.com](mailto:vinhnguyen.dev@outlook.com)
+- **GitHub**: [https://github.com/vinhcodes](https://github.com/vinhcodes)
