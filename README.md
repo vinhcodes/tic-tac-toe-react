@@ -48,7 +48,7 @@ To start the development server and play the game locally:
 npm start
 ```
 
-Open your browser and navigate to \`http://localhost:3000\`.
+Open your browser and navigate to `http://localhost:3000`.
 
 ## Project Structure
 
