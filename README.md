@@ -85,7 +85,7 @@ Open your browser and navigate to \`http://localhost:3000\`.
 
 ## Project Structure
 
-\`\`\`plaintext
+```plaintext
 tic-tac-toe-react/
 ├── public/
 │   ├── index.html
@@ -100,7 +100,7 @@ tic-tac-toe-react/
 │   └── ...
 ├── package.json
 └── README.md
-\`\`\`
+```
 
 - **\`src/components/\`**: Contains reusable components like \`Board\` and \`Square\`.
 - **\`App.js\`**: Main application component.
