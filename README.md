@@ -76,7 +76,7 @@ tic-tac-toe-react/
 └── README.md
 ```
 - **\`src/__test__/\`**: Contains some tests for my components and functions.
-- **\`bot/\`**: Is a folder that has my [bot algorithm](https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/) `Bot.js`
+- **\`bot/\`**: This folder contains `Bot.js` my [bot algorithm](https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/) responsible for smart Bot opponent feature.
 - **\`src/components/\`**: Contains main components like `Board.js` `Game.js` and `Square.js`.
 - **\`src/helper/\`**: Contains helper.js, which determines the game winner.
 - **\`App.js\`**: Main application component `App.js`.
@@ -84,7 +84,7 @@ tic-tac-toe-react/
 
 ## Technologies Used
 
-- **React**: A JavaScript library for building user interfaces.
+- **React (18.3.1)**: A JavaScript library for building user interfaces.
 - **JavaScript (ES6+)**: The programming language used.
 - **CSS**: For styling the application.
 
@@ -96,5 +96,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 For any inquiries or feedback, feel free to reach out:
 
-- **Your Name**: [vinhnguyen.dev!outlook.com](mailto:vinhnguyen.dev@outlook.com)
+- **Your Name**: [vinhnguyen.dev@outlook.com](mailto:vinhnguyen.dev@outlook.com)
 - **GitHub**: [https://github.com/vinhcodes](https://github.com/vinhcodes)
